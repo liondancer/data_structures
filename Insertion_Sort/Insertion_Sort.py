@@ -57,7 +57,7 @@ def insertionSort(alist):
      currentvalue = alist[index]                              #saves current value
      position = index
 
-     while position>0 and alist[position-1]>currentvalue:   
+     while position>0 and alist[position-1]>currentvalue:    
          alist[position]=alist[position-1]
          position = position-1                                  
 
